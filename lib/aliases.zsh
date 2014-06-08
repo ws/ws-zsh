@@ -34,3 +34,6 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+alias _p="cd /Users/will/Projects" # _p = Quick access to my projects directory
+alias zshconfig="subl ~/.zshrc" # zshconfig = Quickly edit my .zshrc file
+alias t="tail -f"

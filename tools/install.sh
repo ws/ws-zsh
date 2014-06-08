@@ -22,7 +22,7 @@ if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then
 fi
 
 echo "\033[0;34mUsing the Oh My Zsh template file and adding it to ~/.zshrc\033[0m"
-cp $ZSH/templates/zshrc.zsh-template ~/.zshrc
+cp $ZSH/templates/zshrc ~/.zshrc
 sed -i -e "/^ZSH=/ c\\
 ZSH=$ZSH
 " ~/.zshrc

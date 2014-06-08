@@ -14,11 +14,11 @@ You can install this via the command line with either `curl` or `wget`.
 
 h4. via `curl`
 
-@curl -L http://install.ohmyz.sh | sh@
+@curl -L https://raw.githubusercontent.com/ws/ws-zsh/master/tools/install.sh | sh@
 
 h4. via `wget`
 
-@wget --no-check-certificate http://install.ohmyz.sh -O - | sh@
+@wget --no-check-certificate https://raw.githubusercontent.com/ws/ws-zsh/master/tools/install.sh -O - | sh@
 
 h4. Optional: change the install directory
 
@@ -43,7 +43,7 @@ h3. The manual way
 
 3. Create a new zsh config by copying the zsh template we've provided.
 
-  @cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc@
+  @cp ~/.oh-my-zsh/templates/zshrc ~/.zshrc@
 
 4. Set zsh as your default shell:
 
